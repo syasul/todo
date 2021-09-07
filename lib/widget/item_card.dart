@@ -66,7 +66,7 @@ class ItemCard extends StatelessWidget {
             padding: const EdgeInsets.all(6),
             decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(8),
-                color: Color(0xFFFFF1F1),
+                color: Color(0xFFFEFBF3),
                 boxShadow: [
                   BoxShadow(blurRadius: 5.0, color: Colors.grey[300]),
                 ]),
