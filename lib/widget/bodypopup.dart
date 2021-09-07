@@ -25,13 +25,13 @@ class BodyPopup extends StatelessWidget {
               TextFormField(
                 controller: titleController,
                 decoration: InputDecoration(
-                    hintText: 'Title', border: InputBorder.none),
+                    hintText: 'Judul', border: InputBorder.none),
                 autofocus: true,
               ),
               TextFormField(
                 controller: valueController,
-                decoration: InputDecoration(
-                    hintText: 'Value', border: InputBorder.none),
+                decoration:
+                    InputDecoration(hintText: 'Isi', border: InputBorder.none),
               ),
               Container(
                 margin: EdgeInsets.only(

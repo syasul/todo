@@ -31,13 +31,13 @@ class ItemCard extends StatelessWidget {
             margin: EdgeInsets.only(right: 0, left: 0),
             width: 40,
             decoration: BoxDecoration(
-              color: Colors.red,
+              color: Colors.white,
               borderRadius: BorderRadius.circular(8),
             ),
             child: IconButton(
               icon: const Icon(
                 Icons.delete_outline_rounded,
-                color: Colors.white,
+                color: Colors.red,
               ),
               onPressed: () {
                 if (onDelete != null) onDelete();
@@ -65,11 +65,12 @@ class ItemCard extends StatelessWidget {
             margin: const EdgeInsets.symmetric(horizontal: 15, vertical: 10),
             padding: const EdgeInsets.all(6),
             decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(8),
-                color: Color(0xFFFEFBF3),
-                boxShadow: [
-                  BoxShadow(blurRadius: 5.0, color: Colors.grey[300]),
-                ]),
+              borderRadius: BorderRadius.circular(8),
+              color: Colors.grey[50],
+              // boxShadow: [
+              //   BoxShadow(blurRadius: 5.0, color: Colors.grey[300]),
+              // ],
+            ),
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
